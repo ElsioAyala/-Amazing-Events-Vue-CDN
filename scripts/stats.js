@@ -3,6 +3,7 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
+            /*urlApi: "./scripts/amazing.json",*/
             urlApi: 'https://mindhub-xj03.onrender.com/api/amazing',
             statisticsEvents: [],
             statisticsPastEvents: [],
